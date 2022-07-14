@@ -4,9 +4,9 @@ int main(){
     int rows,cols;  //rows and columns
     cout<<"Enter no. of layers"<<endl;
     cin>>rows>>cols;                        //Rectangular pattern.
-    for(int i=0;i<=rows;i++){
-        for(int j=0;j<=cols;j++){
-        cout<<"*";
+    for(int i=1;i<=rows;i++){
+        for(int j=1;j<=cols;j++){       
+        cout<<"*";      
         }
         cout<<endl;;
     }
